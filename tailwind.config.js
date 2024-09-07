@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     debugScreens: {
-      position: ['top', 'bottom'],
+      position: ['top', 'left'],
     },
     extend: {},
   },
