@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Tailwind Practice",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development",
