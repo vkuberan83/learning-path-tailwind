@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Tailwind Practice",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode development",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "lint:ts": "eslint \"src/**/*.ts\"",
+    "lint:css": "stylelint \"src/**/*.css\""
   },
   "keywords": [
     "design-patterns",
@@ -15,12 +18,19 @@
   "author": "Velmurugan Kuberan",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
     "autoprefixer": "^10.4.20",
     "css-loader": "^7.1.2",
+    "eslint": "^9.10.0",
     "mini-css-extract-plugin": "^2.9.1",
     "postcss": "^8.4.45",
     "postcss-loader": "^8.1.1",
     "style-loader": "^4.0.0",
+    "stylelint": "^16.9.0",
+    "stylelint-config-recommended": "^14.0.1",
+    "stylelint-config-tailwindcss": "^0.0.7",
     "tailwindcss": "^3.4.10",
     "tailwindcss-debug-screens": "^2.2.1",
     "ts-loader": "^9.5.1",
