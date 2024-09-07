@@ -1,2 +1,2 @@
-# practice-tailwind
+# Practice Tailwind
 Practice Tailwind
