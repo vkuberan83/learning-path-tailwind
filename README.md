@@ -1,5 +1,9 @@
 # Learning Path: Tailwind
+
+<img src="/images/tailwind-icon.png" alt="Tailwind Logo" width="128" />
+
 ## Introduction to Tailwind CSS
+
 [Tailwind](https://tailwindcss.com/) CSS is a modern, utility-first CSS framework designed to streamline the process of building custom user interfaces. Unlike traditional CSS frameworks that provide pre-designed components, Tailwind focuses on giving developers low-level utility classes that can be combined to create complex, responsive designs with ease.
 
 One of the key advantages of Tailwind is its flexibility. By providing thousands of utility classes (like flex, mt-4, text-left, bg-blue, etc.), it allows developers to style elements directly in their HTML without writing custom CSS. This speeds up development and ensures a more consistent and maintainable codebase.
