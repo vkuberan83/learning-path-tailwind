@@ -1,0 +1,47 @@
+.button-container {
+    margin: 0 auto;
+    font-size: 2rem;
+    color: bisque;
+    width: 50%;
+    height: 5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 5rem;
+    background-color: red;
+}
+
+
+@media (min-width: 480px) {
+    .button-container {
+        width: 90%;
+        background-color: deeppink;
+    }
+}
+
+@media (min-width: 640px) {
+    .button-container {
+        width: 90%;
+        background-color: darkseagreen;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-container {
+        width: 90%;
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 1024px) {
+    .button-container {
+        width: 50%;
+        background-color: green;
+    }
+}
+
+@media (min-width: 1280px) {
+    .button-container {
+        width: 50%;
+        background-color: salmon;
+    }
+}
