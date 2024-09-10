@@ -12,3 +12,7 @@ Tailwind CSS is also highly customizable. With a simple configuration file, you 
 
 In summary, Tailwind CSS is a powerful tool for developers looking to create custom, efficient, and scalable designs without the overhead of traditional CSS frameworks. Its utility-first approach enables quick prototyping, while its robust customization options ensure that your design remains unique and polished.
 
+## Learning Path as Lessons
+
+1. [Lesson 1 - Breakpoints](./docs/01-containers-and-breakpoints.md)
+
